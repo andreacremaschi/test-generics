@@ -20,6 +20,15 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    MyObject *object1 = [self.myArray objectAtIndex:0];
+    NSLog(@"%@", object1);
+
+    MyObject *object2 = self.myArray[0];
+    NSLog(@"%@", object2);
+
+    
     return YES;
 }
 

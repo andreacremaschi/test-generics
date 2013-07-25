@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MyObject.h"
+#import "MySecondObject.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -18,5 +21,7 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+@property (strong) NSArray <MyObject> *myArray;
+@property (strong) NSArray <MySecondObject> *mySecondArray;
 
 @end

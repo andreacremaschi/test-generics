@@ -18,6 +18,8 @@
 		CDFDF40317A11CE200A90C39 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDF40217A11CE200A90C39 /* Default@2x.png */; };
 		CDFDF40517A11CE200A90C39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDF40417A11CE200A90C39 /* Default-568h@2x.png */; };
 		CDFDF40817A11CE200A90C39 /* test_generics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDFDF40617A11CE200A90C39 /* test_generics.xcdatamodeld */; };
+		CDFDF41117A11CF900A90C39 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDF41017A11CF900A90C39 /* MyObject.m */; };
+		CDFDF41417A11D7A00A90C39 /* MySecondObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDF41317A11D7A00A90C39 /* MySecondObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,11 @@
 		CDFDF40217A11CE200A90C39 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CDFDF40417A11CE200A90C39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CDFDF40717A11CE200A90C39 /* test_generics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_generics.xcdatamodel; sourceTree = "<group>"; };
+		CDFDF40E17A11CEE00A90C39 /* ObjectiveCGenerics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCGenerics.h; sourceTree = "<group>"; };
+		CDFDF40F17A11CF900A90C39 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		CDFDF41017A11CF900A90C39 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		CDFDF41217A11D7A00A90C39 /* MySecondObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySecondObject.h; sourceTree = "<group>"; };
+		CDFDF41317A11D7A00A90C39 /* MySecondObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySecondObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +91,15 @@
 		CDFDF3F417A11CE200A90C39 /* test_generics */ = {
 			isa = PBXGroup;
 			children = (
+				CDFDF40E17A11CEE00A90C39 /* ObjectiveCGenerics.h */,
 				CDFDF3FD17A11CE200A90C39 /* AppDelegate.h */,
 				CDFDF3FE17A11CE200A90C39 /* AppDelegate.m */,
 				CDFDF40617A11CE200A90C39 /* test_generics.xcdatamodeld */,
 				CDFDF3F517A11CE200A90C39 /* Supporting Files */,
+				CDFDF40F17A11CF900A90C39 /* MyObject.h */,
+				CDFDF41017A11CF900A90C39 /* MyObject.m */,
+				CDFDF41217A11D7A00A90C39 /* MySecondObject.h */,
+				CDFDF41317A11D7A00A90C39 /* MySecondObject.m */,
 			);
 			path = test_generics;
 			sourceTree = "<group>";
@@ -174,6 +186,8 @@
 				CDFDF3FB17A11CE200A90C39 /* main.m in Sources */,
 				CDFDF3FF17A11CE200A90C39 /* AppDelegate.m in Sources */,
 				CDFDF40817A11CE200A90C39 /* test_generics.xcdatamodeld in Sources */,
+				CDFDF41117A11CF900A90C39 /* MyObject.m in Sources */,
+				CDFDF41417A11D7A00A90C39 /* MySecondObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
